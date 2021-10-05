@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+/* #abc {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+} */
+
+nav {
+    width: 100%;
+    height: 50px;
+    background:transparent;
+    line-height: 50px;
+    color: white;
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+    color: white;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+nav ul li:hover {
+    color: white;
+    background-color: grey;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    cursor: url("https://i.pinimg.com/originals/3f/18/9e/3f189ecb200247fad4c22c7b34d49663.jpg"), default;
+
+}
+
+ .autograph {
+    font-family: 'Satisfy', sans-serif;
+    color: white;
+}
+
+
+.githubIcon {
+    padding-top: 10px;
+    float: right;
+    animation: github 5s;
+    -webkit-animation: github 5s;
+    -moz-animation: github 5s;
+    -o-animation: github 5s;
+    -ms-animation: github 5s;
+    display: initial;
+}
+
+
+
+.down {
+    margin-top: 600px;
+    margin-left: 160px;
+    -webkit-animation: move 2s infinite alternate;
+    animation: move 2s infinite alternate;
+}
+
+@-webkit-keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.text {
+    font-family: 'Lato';
+    text-align: center;
+    color: #fff;
+    display: initial;
+    float: right;
+    flex-direction: column;
+    justify-content: right;
+    height: 100vh;
+    letter-spacing: 1px;
+    padding-top: 250px;
+    padding-right: 100px;
+}
+
+.h2 {
+    background-image: url('https://media2.giphy.com/media/EIbqAlY9yJlJ3WBHjc/200w.webp?cid=ecf05e47buw6607d4y24l814rh1vz11hs3rhthjpfy933t75&rid=200w.webp&ct=g');
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-animation: imgText 5s;
+    -moz-animation: imgText 5s;
+    -o-animation: imgText 5s;
+    -ms-animation: imgText 5s;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: .75;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+@keyframes imgText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes imgText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes imgText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes imgText {
+    0% {
+        opacity: 0;
+        
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes imgText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes github {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes github {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes github {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes github {
+    0% {
+        opacity: 0;
+        
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes github {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes arr {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes arr {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes arr {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes arr {
+    0% {
+        opacity: 0;
+        
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes arr {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+ body {
+     background-image: url('https://cutewallpaper.org/21/galaxy-gif-background/Galaxy-Background-Gif-High-Res-Wendy-Anime-Art-Amino-.gif');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     cursor: url("https://i.pinimg.com/originals/3f/18/9e/3f189ecb200247fad4c22c7b34d49663.jpg"), default;
+ }
+
+
+.fade-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    height: 2cm;
+    width: 2cm;
+    margin-left: 500px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+        
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.container .fade-image {
+    float: right;
+    bottom: 0;
+    margin-left: 500px;
+    border-radius: 150px;
+    width:300px;
+    height: 3000px;
+    box-shadow:5px 5px #11D086;
+    margin-top: -60px;
+}
+
+body, html {
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+}
+
+.container{
+    background: transparent;
+    display: flex;
+    float: left;
+    width: max-content;
+    height: max-content;
+    padding-top: 200px;
+    margin-bottom: 400px;
+    padding-left: 300px;
+}
+
+.container .box {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .box .title {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.container .box .title .block {
+    width: 0%;
+    height: inherit;
+    background: #ffb510;
+    position: absolute;
+    animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+    display: flex;
+    margin-top:160px;
+    margin-left: 50px;
+    size: 5cm;
+}
+
+.container .box .title h1 {
+    font-family: "Poppins";
+    color: #fff;
+    font-size: 100px;
+    -webkit-animation: mainFadeIn 2s forwards;
+    -o-animation: mainFadeIn 2s forwards;
+    animation: mainFadeIn 2s forwards;
+    animation-delay: 1.6s;
+    opacity: 0;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 200px;
+    text-shadow: 4px 4px #11D086;
+}
+
+.container .box .role {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: -10px;
+}
+
+.container .box .role .block {
+    height: inherit;
+    background: #eb0951;
+    position: absolute;
+    animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+    animation-delay: 2s;
+    display: flex;
+    box-shadow: 5px 5px 5px #11D086;
+    margin-left: 50px;
+    size: 5cm;
+    margin-top: 500px;
+}
+
+.container .box .role p {
+    animation: secFadeIn 2s forwards;
+    animation-delay: 3.2s;
+    opacity: 0;
+    font-weight: 400;
+    font-family: 'Lato';
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: 70px;
+    margin-top: 500px;
+}
+
+@keyframes mainBlock {
+   0% {
+       width: 0%;
+       left: 0;
+   }
+   50% {
+       width: 100%;
+       left: 0;
+   }
+   100% {
+       width: 0;
+       left: 100%;
+   }
+    
+}
+
+@keyframes secBlock {
+    0% {
+        width: 0%;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes mainFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        width: 5cm;
+    }
+}
+
+
+@keyframes secFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
